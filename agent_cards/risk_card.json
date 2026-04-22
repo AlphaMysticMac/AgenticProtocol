@@ -1,0 +1,11 @@
+{
+  "name": "Risk Assessment Agent",
+  "version": "1.0",
+  "url": "http://localhost:8002",
+  "description": "Identifies regulatory, cultural, and operational M&A risks using MCP tools",
+  "capabilities": ["regulatory_check", "cultural_fit", "operational_risk"],
+  "endpoints": {
+    "agent_card": "GET /agent-card",
+    "tasks": "POST /tasks"
+  }
+}

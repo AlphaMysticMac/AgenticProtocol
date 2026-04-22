@@ -1,0 +1,11 @@
+{
+  "name": "Financial Analysis Agent",
+  "version": "1.0",
+  "url": "http://localhost:8001",
+  "description": "Analyzes financial health using MCP tools: valuation, debt ratio, revenue trends",
+  "capabilities": ["valuation", "debt_analysis", "revenue_trends"],
+  "endpoints": {
+    "agent_card": "GET /agent-card",
+    "tasks": "POST /tasks"
+  }
+}
